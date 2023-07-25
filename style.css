@@ -1,27 +1,24 @@
 body {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-background: black;
-background-image:url(relax.jpg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  background-image: url(relax.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.card{
-background: black;
-color: aliceblue;
-border-radius: 40px;
-width: 100%;
-max-width: 430px;
-padding: 2em;
-
-
+.card {
+  background: black;
+  color: aliceblue;
+  border-radius: 40px;
+  width: 100%;
+  max-width: 430px;
+  padding: 2em;
 }
-button:hover{
-    background: gray;
+button:hover {
+  background: gray;
 }
 .weather.loading {
   visibility: hidden;
@@ -36,8 +33,7 @@ button:hover{
   top: 0;
   left: 20px;
 }
-button{
-  height: 25px; 
+button {
+  height: 25px;
   width: 60px;
-
 }
